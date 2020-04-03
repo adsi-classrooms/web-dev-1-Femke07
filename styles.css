@@ -1,28 +1,30 @@
 header {
-	color: blue alto;
-	background-color: #085f8a;
+	color: white;
+	background-color: #7793a3;
 	padding: 5px;
-}
+	width: 100%;
+	position: fixed;
+	}
 
 main {
 	padding: 100px;
 }
 
 .intro-img {
-	width: 200px;
+	width: 550px;
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
 #temp {
 	position: absolute;
-	top: 10px;
+	top: 20px;
 	right: 10px;
-}}
+}
 
 footer {
-	color: grey;
-	background-color: #78909c;
+	color: white;
+	background-color: #7793a3;
 	padding: 5px;
 	width: 100%;
 	bottom: 0px;	
@@ -36,7 +38,7 @@ footer {
 	z-index: 1; /* Stay on top */
 	top: 0;
 	left: 0;
-	background-color: #082247; /* Navy blue*/
+	background-color: #085370; /* Navy blue*/
 	overflow-x: hidden; /* Disable horizontal scroll */
 	padding-top: 60px; /* Place content 60px from the top */
 	transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -54,7 +56,7 @@ footer {
   
   /* When you mouse over the navigation links, change their color */
   .sidebar a:hover {
-	color: #085f8a;
+	color: #085370;
   }
   
   /* Position and style the close button (top right corner) */
@@ -70,15 +72,15 @@ footer {
   .openbtn {
 	font-size: 20px;
 	cursor: pointer;
-	background-color: #085f8a;
-	color: blue alto;
+	background-color: #102c54;
+	color: white;
 	position: fixed;
 	padding: 5px 5px;
 	border: none;
   }
   
   .openbtn:hover {
-	background-color: #085f8a;
+	background-color: #7793a3;#
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
